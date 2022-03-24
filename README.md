@@ -7,6 +7,7 @@ The above was accomplished by utilizing a series of classical computer vision te
 - investigating different colour spaces (e.g. HSV), and their individual channels, to find the highest contrast
 - low-pass filtering to clean noise
 - and finally, flood-fill with labeling (colouring) to count objects (connected-component counting).
+
 The above approach takes a fraction of the time and computation that would have been needed with even a simple deep-learning based approach.
 
 This task was done as part of a university assignment. The main output was a Jupyter notebook with all the code, and a summary report. This report is much shorter than the notebook, and is the recommended starting point if you are new to the domain and wish to explore the problem.
